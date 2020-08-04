@@ -1,7 +1,37 @@
-# Database-Virtual-Machine
+# Steps to run program:
+
+1) Firstly, use `cd` to navigate to the directory containing the machine.
 
 
-## Multi-Machine Vagrant 
+2) Next, run the following command:
+
+`vagrant up`
+
+This will set up both our app and db machines.
+
+3) Next, run the following command:
+
+`vagrant provision`
+
+This will provision our machines with the dependencies we need.
+
+4) To test our machines are working, attempt to visit the following websites:
+
+`development.local`
+`development.local/posts`
+
+
+# Reverse Proxy Work:
+
+
+- We used a reverse proxy to automate the switch from our development port (3000) to our client port (80).  
+- We used a provisioning script to do this
+- The script automatically allows the application to redirect from port 3000 to port 80.
+
+
+
+
+
 
 ## Steps to install VM:            
 - vagrant up 
