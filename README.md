@@ -41,6 +41,14 @@ This will provision our machines with the dependencies we need.
 - systemctl status nginx  
 
 
+## Dependencies needed to run this VM (Please make sure these are installed before running):
+
+- VirtualBox
+- Vagrant
+- Ruby
+- Bundler
+
+
 --------
 
 RAKE SPEC
