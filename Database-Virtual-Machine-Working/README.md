@@ -1,7 +1,24 @@
-# Database-Virtual-Machine
+# To run the machine:
+
+Firstly, run the following commnand:
+
+`vagrant up`
+
+Following this, run this command:
+
+`vagrant provision`
+
+This should set up both our app and db machines automatically.
 
 
-## Multi-Machine Vagrant 
+To test that the machine is working, attempt to visit the following web pages:
+
+`development.local`
+`development.local/posts`
+
+
+
+
 
 ## Steps to install VM:            
 - vagrant up 
